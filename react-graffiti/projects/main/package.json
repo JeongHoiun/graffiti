@@ -1,0 +1,36 @@
+{
+    "name": "@graffiti/main",
+    "version": "0.0.1",
+    "main": "src/index.tsx",
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "buildQA": "webpack --config webpack.dev.js",
+        "start": "webpack-dev-server --config webpack.dev.js --open",
+        "cleanbuild": "yarn cache clean && rm -rf node_modules/@sstcv* && rm yarn.lock && yarn install && yarn build",
+        "lint": "yarn eslint src/**/*.ts*",
+        "storybook": "start-storybook -p 6006"
+    },
+    "publishConfig": {
+        "registry": "http://211.116.223.145:8081/repository/npm-registry-cover/"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^6.7.1",
+        "eslint-loader": "^4.0.2",
+        "eslint-webpack-plugin": "^3.2.0",
+        "file-loader": "^6.2.0",
+        "fork-ts-checker-webpack-plugin": "^7.2.11",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.1",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.9.3",
+        "webpack-manifest-plugin": "^5.0.0"
+    },
+    "dependencies": {
+        "copy-webpack-plugin": "^11.0.0",
+        "webpack-merge": "^5.8.0"
+    }
+}
