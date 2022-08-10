@@ -8,6 +8,7 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<SelectProject />} />
+                <Route path="/chart" element={<Chart />} />
             </Routes>
         </BrowserRouter>
     );
