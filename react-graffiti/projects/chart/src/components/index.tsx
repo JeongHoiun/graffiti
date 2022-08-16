@@ -77,7 +77,6 @@ export default function ApexChart() {
                     {
                         x: 'abc()',
                         y: 123,
-                        z: 30,
                         fillColor: COLORS[0],
                         goals: '432'
                     },
