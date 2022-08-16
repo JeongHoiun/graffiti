@@ -9,6 +9,9 @@ export default function SelectProject() {
             <Link to="/chart">
                 <Button variant="contained">chart</Button>
             </Link>
+            <Link to="/learning-patterns">
+                <Button variant="contained">learning-patterns</Button>
+            </Link>
         </div>
     );
 }

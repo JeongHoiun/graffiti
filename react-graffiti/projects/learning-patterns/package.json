@@ -1,0 +1,12 @@
+{
+    "name": "@graffiti/learning-patterns",
+    "version": "0.0.1",
+    "main": "src/index.tsx",
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "lint": "yarn eslint src/**/*.ts*"
+    },
+    "dependencies": {}
+}
