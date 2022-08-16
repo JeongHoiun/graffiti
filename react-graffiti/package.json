@@ -3,9 +3,6 @@
     "workspaces": [
         "projects/*"
     ],
-    "publishConfig": {
-        "registry": "http://211.116.223.145:8081/repository/npm-registry-cover/"
-    },
     "dependencies": {
         "@emotion/react": "^11.9.3",
         "@emotion/styled": "^11.9.3",

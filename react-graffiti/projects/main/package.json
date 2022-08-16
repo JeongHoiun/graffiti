@@ -13,9 +13,6 @@
         "lint": "yarn eslint src/**/*.ts*",
         "storybook": "start-storybook -p 6006"
     },
-    "publishConfig": {
-        "registry": "http://211.116.223.145:8081/repository/npm-registry-cover/"
-    },
     "devDependencies": {
         "clean-webpack-plugin": "^4.0.0",
         "css-loader": "^6.7.1",
